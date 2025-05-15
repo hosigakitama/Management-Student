@@ -18,5 +18,5 @@ Route::get('/absensi/{uid_kartu}', [AbsensiController::class, 'getAbsensiByUID']
 
 // test
 Route::get('test', function () {
-    return response()->json(['message' => 'bisa kok!']);
+    return response()->json(['message' => 'keren nih bisa!']);
 });
